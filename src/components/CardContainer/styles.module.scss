@@ -1,0 +1,14 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.cardContainer > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    width: 90%;
+  }
+}
