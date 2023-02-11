@@ -21,7 +21,7 @@ export default async function RecipeDetail({ params }: any) {
   return (
     <CardContainer>
       <div className={styles.detailContainer}>
-        <h1 className={styles.title}>{title + "Büşra GÜler gülmez sananae"}</h1>
+        <h1 className={styles.title}>{title}</h1>
         <div className={styles.detailImage}>
           <Image src="/kahvalti.jpg" alt="alt-img" fill />
         </div>
